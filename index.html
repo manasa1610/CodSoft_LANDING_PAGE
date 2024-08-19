@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floral's Kitchen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Restaurant Name -->
+    <header>
+        <h1>Floral's Kitchen</h1>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#location">Location & Reservations</a></li>
+        </ul>
+    </nav>
+
+    <!-- Image Carousel -->
+    <section id="carousel">
+        <div class="carousel-container">
+            <img src="dish1.jpg" alt="Dish 1">
+            <img src="dish2.jpg" alt="Dish 2">
+            <img src="dish3.jpg" alt="Dish 3">
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-box">
+            <!-- Starters -->
+            <div class="menu-category">
+                <h3>Starters</h3>
+                <p>Paneer Tikka</p>
+                <p>Aloo Tikki</p>
+                <p>Samosa</p>
+                <p>Tandoori Chicken</p>
+            </div>
+    
+            <!-- Main Course -->
+            <div class="menu-category">
+                <h3>Main Course</h3>
+                <p>Butter Chicken</p>
+                <p>Rogan Josh</p>
+                <p>Chole Bhature</p>
+                <p>Palak Paneer</p>
+                <p>Dal Makhani</p>
+            </div>
+    
+            <!-- Breads -->
+            <div class="menu-category">
+                <h3>Breads</h3>
+                <p>Naan</p>
+                <p>Tandoori Roti</p>
+                <p>Aloo Paratha</p>
+                <p>Lachha Paratha</p>
+            </div>
+    
+            <!-- Rice Dishes -->
+            <div class="menu-category">
+                <h3>Rice Dishes</h3>
+                <p>Biryani (Mutton/Chicken)</p>
+                <p>Jeera Rice</p>
+                <p>Pulao</p>
+            </div>
+    
+            <!-- Desserts -->
+            <div class="menu-category">
+                <h3>Desserts</h3>
+                <p>Gulab Jamun</p>
+                <p>Jalebi</p>
+                <p>Rasmalai</p>
+                <p>Kheer</p>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Location & reservations -->
+    <section id="info">
+        <div id="location">
+            <h2>Find Us</h2>
+            <p>Visit Us: 1234 Elm Street, Springfield, IL 62704</p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2886.721227091283!2d-89.64371358449935!3d39.7817219794563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8875272bd062b8f5%3A0xf1e5f84fa44ac8b0!2s1234%20Elm%20St%2C%20Springfield%2C%20IL%2062704%2C%20USA!5e0!3m2!1sen!2sin!4v1692431628744!5m2!1sen!2sin"
+                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    
+        <div id="reservations">
+            <h2>Make a Reservation</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+    
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+    
+                <button type="submit">Reserve Table</button>
+            </form>
+        </div>
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact us: 123-456-7890 | info@vaidya'skitchen.com</p>
+        <p>Follow us on social media: Facebook | Twitter | Instagram</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

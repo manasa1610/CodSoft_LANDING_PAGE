@@ -1,0 +1,231 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F1E5D1; /* Updated background color */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #987070; /* Updated header background color */
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-shadow: 2px 2px #000;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #C39898; /* Updated nav background color */
+    color: #FFF;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    color: #DBB5B5; /* Updated hover color */
+}
+
+/* Carousel Styles */
+#carousel {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-container img {
+    width: 100%;
+    display: none;
+}
+
+.carousel-container img:first-child {
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+/* Menu Box Styles */
+#menu {
+    background-color: #FFF; /* White background for the menu section */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#menu h2 {
+    font-size: 2.2em;
+    color: #987070; /* Updated menu title color */
+    margin-bottom: 20px;
+}
+
+.menu-box {
+    display: flex; /* Flexbox to align menu categories side by side */
+    justify-content: space-around; /* Space out the categories */
+    background-color: #F1E5D1; /* Light background for the menu box */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.menu-category {
+    flex: 1; /* Allow each category to grow equally */
+    margin: 0 10px; /* Space between categories */
+    padding: 20px;
+    background-color: #DBB5B5; /* Background color for menu categories */
+    border-radius: 5px; /* Rounded corners for categories */
+}
+
+.menu-category h3 {
+    font-size: 1.8em;
+    color: #987070; /* Updated category title color */
+    margin-bottom: 15px; /* Space below the category title */
+}
+
+.menu-category ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.menu-category ul li {
+    font-size: 1.2em; /* Font size for menu items */
+    color: #333; /* Text color for menu items */
+    margin-bottom: 10px; /* Space between menu items */
+}
+
+
+/* Location and Reservations Styles */
+#info {
+    display: flex; /* Use Flexbox to align items side by side */
+    justify-content: space-between; /* Space out the items */
+    padding: 20px 10px;
+    background-color: #F1E5D1; /* Updated background color */
+}
+
+#location, #reservations {
+    flex: 1; /* Allow both sections to grow equally */
+    margin: 0 10px; /* Space between the sections */
+}
+
+#location {
+    background-color: #FFF; /* White background for the location section */
+    padding: 20px; /* Padding around the location section */
+}
+
+#location h2 {
+    font-size: 1.8em; /* Font size for location title */
+    color: #987070; /* Updated location title color */
+    margin-bottom: 15px; /* Space below the location title */
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+#reservations {
+    background-color: #FFF; /* White background for the reservations section */
+    padding: 20px; /* Padding around the reservations section */
+}
+
+#reservations h2 {
+    font-size: 1.8em; /* Font size for reservations title */
+    color: #987070; /* Updated reservations title color */
+    margin-bottom: 15px; /* Space below the reservations title */
+}
+
+form {
+    max-width: 100%; /* Adjust form width */
+    margin: auto;
+}
+
+form label {
+    display: block;
+    margin: 5px 0 3px; /* Reduce margins */
+    font-size: 1em;
+}
+
+form input {
+    width: 100%;
+    padding: 7px; /* Reduce padding */
+    margin-bottom: 15px; /* Reduce margin-bottom */
+    border: 1px solid #C39898; /* Updated border color */
+    border-radius: 3px; /* Rounded corners */
+    font-size: 0.9em; /* Reduce font size */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+form button {
+    background-color: #987070; /* Updated button background color */
+    color: #FFF;
+    padding: 8px 15px; /* Reduce button padding */
+    border: none;
+    border-radius: 3px; /* Rounded corners */
+    font-size: 1em; /* Adjust button font size */
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #DBB5B5; /* Updated button hover color */
+    color: #333;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #C39898; /* Updated footer background color */
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #DBB5B5; /* Updated footer link color */
+    text-decoration: none;
+}
